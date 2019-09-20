@@ -3,7 +3,7 @@ extern crate web_view;
 use web_view::*;
 
 fn main() {
-    let size = (700, 400);
+    let size = (800, 550);
     let resizable = true;
     let debug = false;
     let titlebar_transparent = true;
@@ -18,7 +18,6 @@ fn main() {
           <title>Main</title>
 
           <!-- Styles -->
-          <!--<style>{bootstrap}</style>-->
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
           <style>{css}</style>
@@ -34,7 +33,6 @@ fn main() {
         </html>
     "#,
     css = include_str!("../www/style.css"),
-    bootstrap = include_str!("../www/bootstrap.min.css"),
     elm = include_str!("../www/main.js"));
 
     run(
