@@ -1,3 +1,11 @@
+# Desktop-Hasher
+
+An example of using the Rust-Elm-Template to create a desktop application to hash strings.
+
+![Screenshot](./screenshot.PNG)
+
+-----
+
 # Rust-Elm-Template
 
 A template for creating web-based desktop applications (similar to Electron, but not Electron).
